@@ -15,6 +15,7 @@ group :development, :test do
   gem 'simplecov'
 end
 group :test do
+	gem 'factory_girl_rails'
   gem 'rspec-rails'
   gem 'cucumber-rails'
   gem 'cucumber-rails-training-wheels'
